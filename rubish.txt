@@ -2,3 +2,12 @@ PCF Foundation API: api.sys.evans.pal.pivotal.io
 PCF Org: esanch69.ford.com
 PCF Username: esanch69@ford.com
 PCF Password: hd7q5kjc
+
+
+
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperDistributedSystemWithCircuitBreaker \
+    -PregistrationServerUrl=https://registration-pal-esanch69.apps.evans.pal.pivotal.io \
+    -PbacklogServerUrl=https://backlog-pal-esanch69.apps.evans.pal.pivotal.io \
+    -PallocationsServerUrl=https://allocations-pal-esanch69.apps.evans.pal.pivotal.io \
+    -PtimesheetsServerUrl=https://timesheets-pal-esanch69.apps.evans.pal.pivotal.io
